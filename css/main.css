@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+.huddle {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: hsl(257, 40%, 49%) url("/images/bg-mobile.svg") no-repeat center;
+  padding: 4em 2em;
+}
+
+.logo {
+  text-align: left;
+}
+
+.logo img {
+  width: 40%;
+}
+
+.images img {
+  width: 100%;
+  margin: 3em 0;
+}
+
+.register {
+  background-color: #fff;
+  color: hsl(257, 40%, 49%);
+  padding: 1em 4.5em;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 1em 0;
+}
+
+.register:hover {
+  background-color: hsl(257, 40%, 59%);
+  color: white;
+}
+
+.attribution a {
+  color: #ccc;
+}
